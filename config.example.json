@@ -1,0 +1,8 @@
+{
+  "mode": "simulation",
+  "scan_interval_seconds": 60,
+  "markets": {"stocks": ["US", "CA"], "etfs": true, "crypto_analysis_only": true},
+  "virtual_portfolios_cad": {"day": 10000, "swing": 10000, "long_term": 10000},
+  "execution": {"live_enabled": false, "require_human_approval": true},
+  "risk_demo_defaults": {"max_order_notional_cad": 100, "max_daily_loss_cad": 50, "reject_stale_data": true}
+}
